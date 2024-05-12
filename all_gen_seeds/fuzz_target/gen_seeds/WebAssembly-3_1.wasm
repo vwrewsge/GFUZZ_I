@@ -1,0 +1,8 @@
+
+(module
+  (import "env" "print" (func $print (param i32 i32)))
+  (func (export "security_feature")
+    (call $print (i32.const 0) (i32.const 12)) ; Print "Security feature"
+  )
+)
+

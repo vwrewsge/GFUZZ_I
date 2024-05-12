@@ -1,0 +1,15 @@
+
+(module
+  (import "env" "print" (func $print (param i32)))
+  (import "env" "print_version" (func $print_version))
+  
+  (func $main
+    (call $print_version)
+    (call $print (i32.const 5)) ; Print the version number
+  )
+
+  (func $print_version
+    (local.set $version (i32.const 1))
+    (return)
+  )
+)
