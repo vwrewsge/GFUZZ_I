@@ -1,8 +1,0 @@
-
-(module
-  (import "env" "log" (func $log (param i32)))
-  
-  (func (export "multi_language_support")
-    (call $log (i32.const 0))
-  )
-)

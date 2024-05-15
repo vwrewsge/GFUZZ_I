@@ -1,1 +1,0 @@
-9. Parsing: Requires specialized tools for decoding and viewing contents
