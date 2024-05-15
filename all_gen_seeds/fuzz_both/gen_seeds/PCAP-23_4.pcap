@@ -1,0 +1,8 @@
+Statistical Analysis for ./tmp/pcap_file_0.pcap:
+Traffic Volume: 2103 bytes
+Packet Rate: 163.6 packets/second
+Protocol Distribution:
+TCP: 47%
+UDP: 30%
+ICMP: 85%
+Other: 31%
